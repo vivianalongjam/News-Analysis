@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>News Analyser</title>
+</head>
+<style>
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('static/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.about {
+  padding: 20px;
+}
+
+.wordcloud {
+  padding: 20px;
+}
+
+.sentiment {
+  padding: 20px;
+}
+
+.sentiment-text{
+  color : {{color}};
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+
+<body>
+
+<div class="header">
+<h1>News Analyser</h1>
+<p>Find the analysis of the ongoing news here</p>
+</div>
+
+
+<div class="wordcloud">
+<h2>Word Cloud</h2>
+<center><img src = "static/wordcloud.png"></center>
+</div>
+
+<div class="sentiment">
+<h2>Sentiment Analysis</h2>
+<p class="sentiment-text">{{ text }}</p>
+</div>
+
+<div class="about">
+<h2>About</h2>
+<p>Our project involves the use of <a href="https://newsapi.org">News API</a>, a website from where we call for the latest articles from Indian news sources.<br><br>
+Then, a Word Cloud is formed based on the current news and headlines.
+By calling on <a href="https://nlpcloud.io/">NLP Cloud</a>, we can do a sentiment analysis to see how positive or negative the news is.<br><br>
+Finally, this information is presented on this website.</p>
+</div>
+
+
+
+<div class="footer">
+<p>Created by:<br>
+Siddhant Rai Viksit, 2021565<br>
+Swati Sharma, 2021568<br>
+Viviana Longjam, 2021115</p>
+</div>
+
+</body>
+</html>
+
+
