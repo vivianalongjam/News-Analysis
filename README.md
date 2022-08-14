@@ -1,0 +1,2 @@
+# News-Analysis
+This project involves the use of News API, a website from where we call for the latest articles from Indian news sources.  Then, a Word Cloud is formed based on the current news and headlines. By calling on NLP Cloud, we can do a sentiment analysis to see how positive or negative the news is.  Finally, this information is presented on the website. Made by Viviana Longjam, Siddhant Rai Viksit and Swati Sharma in their Introduction to Programming Course under Professor Pankaj Jalote.
